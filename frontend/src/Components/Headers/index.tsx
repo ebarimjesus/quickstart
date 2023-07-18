@@ -27,7 +27,7 @@ const Header = () => {
       {!linkSuccess ? (
         <>
           <h4 className={styles.subtitle}>
-            A sample end-to-end integration with Plaid
+            A  end-to-end integration with Plaid to connect your financial institutions to ZingyPay.
           </h4>
           <p className={styles.introPar}>
             The Plaid flow begins when your user wants to connect their bank
