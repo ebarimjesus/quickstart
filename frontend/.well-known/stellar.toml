@@ -1,0 +1,62 @@
+
+ACCOUNTS = ["GBZAC3UPMX3QI4346PRRNE77QORHFO2V4CVDICI6DUVJJSD3QHO7RFAF", "GD72XP6N3LQFP4C27GUDV22LBYASGACAIEME64IEGKNU2HGO6RIALLRR", "GBRTM5TWRKX2DCOH6OETIA45NJJXGVP6QB7JJ754QFAO62XG2XMCDBAA"]
+SIGNING_KEY = "GAV6IZXSJBL7UIFR36NRFD43NWGOEFUUU573MNXFI5B3FIMDZZT3EYXM"
+FEDERATION_SERVER="https://federation.zingypay.com/federation"
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+
+TRANSFER_SERVER_SEP0024 = "https://zingypay.com:8080/sep24"
+WEB_AUTH_ENDPOINT = "https://zingypay.com:8080/auth"
+DIRECT_PAYMENT_SERVER = "https://zingypay.com:8080/sep31"
+KYC_SERVER = "https://zingypay.com:8080/kyc"
+QUOTE_SERVER = "https://zingypay.com:8080/sep38"
+
+# Add support for AFRO
+[[CURRENCIES]]
+code = "AFRO"
+issuer = "GBUYO263AYAZZKZI5ZCZFCPIGC42JVCGAOIP2CBBCUP2UTCEUIPIE2VV"
+status = "live"
+is_asset_anchored = true
+anchor_asset_type = "crypto"
+desc = "AFRO Is The One Africa Digital Curency Designed To Facilitate Trade In Africa To Forestall Over Dependence On The USD."
+image="https://zingypay.com/static/img/afro.png"
+
+# Add support for LIFE
+[[CURRENCIES]]
+code = "LIFE"
+issuer = "GBUYO263AYAZZKZI5ZCZFCPIGC42JVCGAOIP2CBBCUP2UTCEUIPIE2VV"
+status = "live"
+is_asset_anchored = true
+anchor_asset_type = "crypto"
+desc = "Life is Zingypay's glocally facing currency to facilitate glocal trade amongst individuals, businesses, organizations, and governments."
+image="https://zingypay.com/static/img/life.png"
+
+# Add support for NATURE
+[[CURRENCIES]]
+code = "NATURE"
+issuer = "GBUYO263AYAZZKZI5ZCZFCPIGC42JVCGAOIP2CBBCUP2UTCEUIPIE2VV"
+status = "live"
+is_asset_anchored = true
+anchor_asset_type = "crypto"
+desc = "NATURE is Zingypay's asset created to cater to envirnment and nature's reengineering and conservation. 'Replenish the earth' is the mantra."
+image="https://zingypay.com/static/img/nature.png"
+
+# Optionally, add support for XLM
+[[CURRENCIES]]
+code = "native"
+status = "live"
+is_asset_anchored = false
+anchor_asset_type = "crypto"
+desc = "XLM, the native token of the Stellar network."
+
+[DOCUMENTATION]
+ORG_NAME = "Zingypay Glocal Services Co. Ltd."
+ORG_URL = "https://zingypay.com"
+ORG_LOGO="https://zingypay.com/static/img/zingypay.png"
+ORG_DESCRIPTION = "A glocal platform built to facilitate instant glocal transactions with a throughput of 50,000 transactions per second."
+ORG_TWITTER="@zingypay"
+ORG_OFFICIAL_EMAIL="support@zingypay.com"
+
+[[PRINCIPALS]]
+name="Ebarim Godsend"
+email="ebarim@zingypay.com"
+

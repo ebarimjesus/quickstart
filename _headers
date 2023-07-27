@@ -1,0 +1,4 @@
+# Allow CORS for stellar.toml
+/.well-known/stellar.toml
+  Access-Control-Allow-Origin: *
+
